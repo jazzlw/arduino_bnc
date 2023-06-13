@@ -21,7 +21,7 @@ Now you're ready to load some code on the Arduino with the [Arduino IDE](https:/
 
 ## Getting one
 
-The Arduino BNC Shield can be ordered easily and cheaply from any PCB board house (such as [pcbway](pcbway.com), [jlcpcb](jlcpcb.com), etc)  using the zipped gerber files in `bnc_shield_pcb/bnc_shield_gerbers.zip`.  Many board houses have a deal for 5 PCBs of this size for under $10 plus shipping. The only other parts you need are an Arduino Uno, some BNC jacks, and some header to connect the shield to the Arduino. The whole thing can then be easily and quickly assembled even by someone with no soldering experience using only a soldering iron and solder.
+The Arduino BNC Shield can be ordered easily and cheaply from any PCB board house (such as [pcbway](pcbway.com), [jlcpcb](jlcpcb.com), etc)  using the zipped gerber files in `bnc_shield_pcb/bnc_shield_gerbers.zip`. You'll need to input the size of the desired board, which is 3.6 inches by 3.6 inches. Many board houses have a deal for 5 PCBs of this size for under $10 plus shipping. The only other parts you need are an Arduino Uno, some BNC jacks, and some header to connect the shield to the Arduino. The whole thing can then be easily and quickly assembled even by someone with no soldering experience using only a soldering iron and solder.
 
 ### Required parts
 
