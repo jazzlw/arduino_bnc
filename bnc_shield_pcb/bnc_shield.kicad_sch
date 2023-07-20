@@ -2233,7 +2233,7 @@
     (property "Value" "jumper" (id 1) (at 123.825 102.87 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" (id 2) (at 126.365 104.14 0)
+    (property "Footprint" "Misc_custom:SolderJumper-3-P2.54mm_Bridged12" (id 2) (at 126.365 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 126.365 104.14 0)
@@ -2428,7 +2428,7 @@
     (uuid 669281f0-5788-4ca9-ae77-1c6b3ce2c43a)
     (property "Reference" "SW1" (id 0) (at 255.27 94.0775 0))
     (property "Value" "SW_MEC_5E" (id 1) (at 255.27 96.8526 0))
-    (property "Footprint" "digikey-footprints:Switch_Tactile_SMD_6x6mm_PTS645" (id 2) (at 255.27 95.885 0)
+    (property "Footprint" "digikey-footprints:Switch_Tactile_THT_6x6mm" (id 2) (at 255.27 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" (id 3) (at 255.27 95.885 0)
@@ -2676,7 +2676,7 @@
     (property "Value" "jumper" (id 1) (at 165.735 44.45 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" (id 2) (at 167.64 45.72 0)
+    (property "Footprint" "Misc_custom:SolderJumper-3-P2.54mm_Bridged12" (id 2) (at 167.64 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 167.64 45.72 0)
@@ -2925,10 +2925,10 @@
       (reference "J16") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
     (path "/053c8083-a9af-4404-9cbb-5f2f2c004e29"
-      (reference "JP1") (unit 1) (value "jumper") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm")
+      (reference "JP1") (unit 1) (value "jumper") (footprint "Misc_custom:SolderJumper-3-P2.54mm_Bridged12")
     )
     (path "/a4c5c756-5c56-44ed-8cdc-4543d4cb82ab"
-      (reference "JP2") (unit 1) (value "jumper") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm")
+      (reference "JP2") (unit 1) (value "jumper") (footprint "Misc_custom:SolderJumper-3-P2.54mm_Bridged12")
     )
     (path "/00000000-0000-0000-0000-000056d70129"
       (reference "P1") (unit 1) (value "Power") (footprint "Socket_Arduino_Uno:Socket_Strip_Arduino_1x08")
@@ -2952,7 +2952,7 @@
       (reference "P8") (unit 1) (value "CONN_01X01") (footprint "Socket_Arduino_Uno:Arduino_1pin")
     )
     (path "/669281f0-5788-4ca9-ae77-1c6b3ce2c43a"
-      (reference "SW1") (unit 1) (value "SW_MEC_5E") (footprint "digikey-footprints:Switch_Tactile_SMD_6x6mm_PTS645")
+      (reference "SW1") (unit 1) (value "SW_MEC_5E") (footprint "digikey-footprints:Switch_Tactile_THT_6x6mm")
     )
   )
 )
