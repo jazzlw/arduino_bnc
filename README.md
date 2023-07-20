@@ -2,6 +2,10 @@
 <!-- ![Image of Arduino BNC Shield](docs/figs/arduino_bnc.jpg) -->
 <img src = "docs/figs/arduino_bnc.jpg" width=50% alt=Image of Arduino BNC Shield align="right">
 
+*Now orderable from my [Etsy store](https://www.etsy.com/listing/1526648413/arduino-bnc-shield)*
+
+**NOTE:** I've just made a new version with some small changes and upgrades, and it might be worth waiting for. You can see it in the `dev` branch, and once I get some and test it I'll update the `main` branch, should be in the first or second week of august, 2023.
+
 The Arduino BNC Shield is a very simple way to reliably connect an Arduino to one or more BNC
 cables.
 
@@ -13,15 +17,17 @@ Up to ten BNC ports attached to different pins on the Arduino.  Five of these pi
 
 There is also a prototyping area with 0.1 inch pitch through holes, in case you want to add any extra parts such as sensors or digital to analog  converters (DACs) or similar. Two of the BNC ports (3 and A4) have jumpers so that they can be easily attached to something in the prototyping area, such as a DAC, instead of to their Arduino pins. See [adding an analog voltage output](docs/adding_analog_out.md) for details and instructions.
 
+## Getting one
+
+To make it super easy to get one of these, I've just put some up on an [Etsy store](https://www.etsy.com/listing/1526648413/arduino-bnc-shield).  You can get just the board, made matte black with high quality immersion gold coating, as shown in the pictures above. You can also get the other parts there, and you can also order it pre-soldered if you want.
+
+With a little more effort, the Arduino BNC Shield can be ordered easily and cheaply from any PCB board house (such as [pcbway](pcbway.com), [jlcpcb](jlcpcb.com), etc)  using the zipped gerber files in `bnc_shield_pcb/bnc_shield_gerbers.zip`. You'll need to input the size of the desired board, which is 3.6 inches by 3.6 inches. Many board houses have a deal for 5 PCBs of this size for under $10 plus shipping (although without the black solder mask or gold coating mentioned above). The only other parts you need are an Arduino Uno, some BNC jacks, and some header to connect the shield to the Arduino. The whole thing can then be easily and quickly assembled even by someone with no soldering experience using only a soldering iron and solder.
+
 ## Build Instructions
 
 The Arduino BNC Shield was designed to be super easy and quick to assemble, even without any experience! For most use cases, all you need to do is solder some [0.1 inch male header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC040SAAN-RC/2775214) onto the shield to connect it to the Arduino, and some [BNC Jacks](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC040SAAN-RC/2775214) to connect your BNC cables. For the header, it can be helpful to start by putting the long side of the headers into an Arduino to hold them, and then putting the shield on top to solder it. If you've never soldered before, don't worry, it's very learnable! There are many great YouTube videos and other guides on the internet to show you how, such as [this one from AdaFruit.](https://learn.adafruit.com/adafruit-guide-excellent-soldering/preparation)
 
 Now you're ready to load some code on the Arduino with the [Arduino IDE](https://www.arduino.cc/en/software) and try it out! Check out the things in the `examples` folder for ideas.
-
-## Getting one
-
-The Arduino BNC Shield can be ordered easily and cheaply from any PCB board house (such as [pcbway](pcbway.com), [jlcpcb](jlcpcb.com), etc)  using the zipped gerber files in `bnc_shield_pcb/bnc_shield_gerbers.zip`. You'll need to input the size of the desired board, which is 3.6 inches by 3.6 inches. Many board houses have a deal for 5 PCBs of this size for under $10 plus shipping. The only other parts you need are an Arduino Uno, some BNC jacks, and some header to connect the shield to the Arduino. The whole thing can then be easily and quickly assembled even by someone with no soldering experience using only a soldering iron and solder.
 
 ### Required parts
 
