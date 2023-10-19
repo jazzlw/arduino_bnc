@@ -1,4 +1,7 @@
 # Arduino BNC Shield
+
+*Now orderable from my [Etsy store](https://www.etsy.com/listing/1526648413/arduino-bnc-shield)*
+
 <!-- ![Image of Arduino BNC Shield](docs/figs/arduino_bnc.jpg) -->
 <img src = "docs/figs/arduino_bnc.jpg" width=50% alt=Image of Arduino BNC Shield align="right">
 
@@ -19,7 +22,15 @@ The Arduino BNC Shield was designed to be super easy and quick to assemble, even
 
 Now you're ready to load some code on the Arduino with the [Arduino IDE](https://www.arduino.cc/en/software) and try it out! Check out the things in the `examples` folder for ideas.
 
+## Case
+<!-- ![Image of Arduino BNC Shield](docs/figs/arduino_bnc.jpg) -->
+<img src = "docs/figs/arduino_bnc_case.jpeg" width=50% alt=Image of Arduino BNC Shield align="right">
+
+There are files for a 3D printed case that fits an Arduino Uno with the Arduino BNC shield in the folder [arduino_bnc_case](arduino_bnc_case).  You can either print the top lid using the `.stl` file, or laser cut one out of 1/8 inch acrylic using the `.svg` file, as shown to the right. Tap the three standoffs in the bottom of the case to #4-40 using a [tap](https://www.mcmaster.com/25995A125/), and use [1.5 inch long #4-40 screws](https://www.mcmaster.com/92949A120/) to attach the lid and hold the Arduino BNC down.
+
 ## Getting one
+
+To make it super easy to get one of these, I've just put some up on an [Etsy store](https://www.etsy.com/listing/1526648413/arduino-bnc-shield).  You can get just the board, made matte black with high quality immersion gold coating, as shown in the pictures above. You can also get the other parts there, and you can order it pre-soldered if you want.
 
 The Arduino BNC Shield can be ordered easily and cheaply from any PCB board house (such as [pcbway](pcbway.com), [jlcpcb](jlcpcb.com), etc)  using the zipped gerber files in `bnc_shield_pcb/bnc_shield_gerbers.zip`. You'll need to input the size of the desired board, which is 3.6 inches by 3.6 inches. Many board houses have a deal for 5 PCBs of this size for under $10 plus shipping. The only other parts you need are an Arduino Uno, some BNC jacks, and some header to connect the shield to the Arduino. The whole thing can then be easily and quickly assembled even by someone with no soldering experience using only a soldering iron and solder.
 
@@ -38,8 +49,10 @@ You will need a few parts in order to complete the Arduino BNC shield, as shown 
 
 |Part|Quantity|Part Number|Supplier Link|
 |---|---|---|---|
-|Reset Button|1| PTS526 SK15 SMTR2 LFS| <https://www.digikey.com/en/products/detail/c-k/PTS526-SK15-SMTR2-LFS/10056626>|
+|Reset Button|1| 450-1650-ND |  <https://www.digikey.com/en/products/detail/te-connectivity-alcoswitch-switches/1825910-6/1632536>|
 |Shield Stacking Header|1 set| 85|<https://www.adafruit.com/product/85> |
 |[Digital to Analog Converter  (DAC)](docs/adding_analog_out.md) | 1| 935 |  <https://www.adafruit.com/product/935>
+|4-40 tap for case | 1 | 25995A125 | <https://www.mcmaster.com/25995A125> |
+| 1.5 inch long #4-40 screws for case| 3  | 92949A120 | <https://www.mcmaster.com/92949A120>|
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
