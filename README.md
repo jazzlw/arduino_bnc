@@ -5,8 +5,6 @@
 
 *Now orderable from my [Etsy store](https://www.etsy.com/listing/1526648413/arduino-bnc-shield)*
 
-**NOTE:** I've just made a new version with some small changes and upgrades, and it might be worth waiting for. You can see it in the `dev` branch, and once I get some and test it I'll update the `main` branch, should be in the first or second week of august, 2023.
-
 The Arduino BNC Shield is a very simple way to reliably connect an Arduino to one or more BNC
 cables.
 
