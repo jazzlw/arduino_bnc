@@ -3,7 +3,7 @@
 <!-- ![Image of BNC Shield for Arduino](docs/figs/arduino_bnc.jpg) -->
 <img src = "docs/figs/arduino_bnc.jpg" width=50% alt=Image of BNC Shield for Arduino align="right">
 
-*Now orderable from my [Etsy store](https://www.etsy.com/listing/1526648413/arduino-bnc-shield)*
+*Now orderable from my [Etsy store](https://www.etsy.com/listing/1844833694/bnc-shield-for-arduino)*
 
 The BNC Shield for Arduino is a very simple way to reliably connect an Arduino to one or more BNC
 cables.
